@@ -1,0 +1,41 @@
+name: Hugger
+version: '${project.version}'
+main: ca.noae.hugger.Hugger
+load: STARTUP
+author: Noae
+website: https://noae.ca
+description: "Hugger is a simple plugin that allows players to show all forms of love to their fellow players <3"
+api-version: '1.20'
+
+commands:
+  hug:
+    aliases: [givehug]
+    description: "Give another player a hug :)"
+    permission: noae.hugger.givehug
+    permission-message: "perm: noae.hugger.givehug"
+    usage: "/hug <player>"
+  kiss:
+    aliases: [givekiss]
+    description: "Give a kiss to someone - no tongue !"
+    permission: noae.hugger.givekiss
+    permission-message: "perm noae.hugger.givekiss"
+    usage: "/kiss <player>"
+  pet:
+    aliases: [givepet]
+    description: "Pet someone, because they deserve it !"
+    permission: noae.hugger.givepet
+    permission-message: "perm noae.hugger.givepet"
+    usage: "/pet <player>"
+  cuddle:
+    aliases: [givecuddle]
+    description: "Cuddle with someone, because you can !"
+    permission: noae.hugger.givecuddle
+    permission-message: "perm noae.hugger.givecuddle"
+    usage: "/cuddle <player>"
+  praise:
+    aliases: [givepraise]
+    description: "Praise your good *friend*, because they are awesome !"
+    permission: noae.hugger.givepraise
+    permission-message: "perm noae.hugger.givepraise"
+    usage: "/praise <player>"
+
