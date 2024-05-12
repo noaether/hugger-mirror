@@ -8,31 +8,6 @@ description: "Hugger is a simple plugin that allows players to show all forms of
 api-version: '1.20'
 
 commands:
-  ## Positive Commands
-  cuddle:
-    aliases: [givecuddle]
-    description: "Cuddle with someone, because you can !"
-    permission: noae.atlas.hugger.positive.givecuddle
-    permission-message: "perm noae.atlas.hugger.positive.givecuddle"
-    usage: "/cuddle <player>"
-  hug:
-    aliases: [givehug]
-    description: "Give another player a hug :)"
-    permission: noae.atlas.hugger.positive.givehug
-    permission-message: "perm: noae.atlas.hugger.positive.givehug"
-    usage: "/hug <player>"
-  kiss:
-    aliases: [givekiss]
-    description: "Give a kiss to someone - no tongue !"
-    permission: noae.atlas.hugger.positive.givekiss
-    permission-message: "perm noae.atlas.hugger.positive.givekiss"
-    usage: "/kiss <player>"
-  pet:
-    aliases: [givepet]
-    description: "Pet someone, because they deserve it !"
-    permission: noae.atlas.hugger.positive.givepet
-    permission-message: "perm noae.atlas.hugger.positive.givepet"
-    usage: "/pet <player>"
   ## Negative Commands
   burn:
     aliases: [wax]
@@ -89,6 +64,37 @@ commands:
     permission: noae.atlas.hugger.neutral.tickle
     permission-message: "perm noae.atlas.hugger.neutral.tickle"
     usage: "/tickle <player>"
+  ## Positive Commands
+  cuddle:
+    aliases: [givecuddle, snuggle]
+    description: "Cuddle with someone, because you can !"
+    permission: noae.atlas.hugger.positive.givecuddle
+    permission-message: "perm noae.atlas.hugger.positive.givecuddle"
+    usage: "/cuddle <player>"
+  hug:
+    aliases: [givehug]
+    description: "Give another player a hug :)"
+    permission: noae.atlas.hugger.positive.givehug
+    permission-message: "perm: noae.atlas.hugger.positive.givehug"
+    usage: "/hug <player>"
+  kiss:
+    aliases: [givekiss]
+    description: "Give a kiss to someone - no tongue !"
+    permission: noae.atlas.hugger.positive.givekiss
+    permission-message: "perm noae.atlas.hugger.positive.givekiss"
+    usage: "/kiss <player>"
+  love:
+    aliases: [makelove]
+    description: "Sometimes, 1 + 1 = 1"
+    permission: noae.atlas.hugger.positive.makelove
+    permission-message: "perm noae.atlas.hugger.positive.makelove"
+    usage: "/love <player>"
+  pet:
+    aliases: [givepet]
+    description: "Pet someone, because they deserve it !"
+    permission: noae.atlas.hugger.positive.givepet
+    permission-message: "perm noae.atlas.hugger.positive.givepet"
+    usage: "/pet <player>"
   ## Punishment Commands
   chain:
     aliases: [shackle]
@@ -96,6 +102,18 @@ commands:
     permission: noae.atlas.hugger.punishment.chain
     permission-message: "perm noae.atlas.hugger.punishment.chain"
     usage: "/chain <player>"
+  crush:
+    aliases: [weighdown]
+    description: "Weigh someone down - they need to feel the pressure."
+    permission: noae.atlas.hugger.punishment.weighdown
+    permission-message: "perm noae.atlas.hugger.punishment.weighdown"
+    usage: "/crush <player>"
+  cuff:
+    aliases: [handcuff]
+    description: "People like them don't need hands. Tie them up."
+    permission: noae.atlas.hugger.punishment.cuff
+    permission-message: "perm noae.atlas.hugger.punishment.cuff"
+    usage: "/cuff <player>"
   leash:
     aliases: [collar]
     description: "Leash someone - they need to be kept in line."
@@ -108,19 +126,25 @@ commands:
     permission: noae.atlas.hugger.punishment.muzzle
     permission-message: "perm noae.atlas.hugger.punishment.muzzle"
     usage: "/muzzle <player>"
-  crush:
-    aliases: [weighdown]
-    description: "Weigh someone down - they need to feel the pressure."
-    permission: noae.atlas.hugger.punishment.weighdown
-    permission-message: "perm noae.atlas.hugger.punishment.weighdown"
-    usage: "/crush <player>"
-  ## Rewards
+  ## Reward commands
+  feed:
+    aliases: [givefood]
+    description: "They finally did something right. Feed them."
+    permission: noae.atlas.hugger.reward.feed
+    permission-message: "perm noae.atlas.hugger.reward.feed"
+    usage: "/feed <player>"
   praise:
     aliases: [givepraise]
     description: "Praise your good *friend*, because they are awesome !"
     permission: noae.atlas.hugger.positive.givepraise
     permission-message: "perm noae.atlas.hugger.positive.givepraise"
     usage: "/praise <player>"
+  treat:
+    aliases: [givetreat]
+    description: "They did good - give them a treat."
+    permission: noae.atlas.hugger.reward.givetreat
+    permission-message: "perm noae.atlas.hugger.reward.givetreat"
+    usage: "/treat <player>"
 
 
 
