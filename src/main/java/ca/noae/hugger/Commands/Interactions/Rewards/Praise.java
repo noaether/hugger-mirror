@@ -1,4 +1,4 @@
-package ca.noae.hugger.Commands.Interactions.Positive;
+package ca.noae.hugger.Commands.Interactions.Rewards;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -10,3 +10,4 @@ public class Praise implements CommandExecutor {
         return false;
     }
 }
+
