@@ -33,12 +33,6 @@ commands:
     permission: noae.atlas.hugger.positive.givepet
     permission-message: "perm noae.atlas.hugger.positive.givepet"
     usage: "/pet <player>"
-  praise:
-    aliases: [givepraise]
-    description: "Praise your good *friend*, because they are awesome !"
-    permission: noae.atlas.hugger.positive.givepraise
-    permission-message: "perm noae.atlas.hugger.positive.givepraise"
-    usage: "/praise <player>"
   ## Negative Commands
   burn:
     aliases: [wax]
@@ -120,6 +114,13 @@ commands:
     permission: noae.atlas.hugger.punishment.weighdown
     permission-message: "perm noae.atlas.hugger.punishment.weighdown"
     usage: "/crush <player>"
+  ## Rewards
+  praise:
+    aliases: [givepraise]
+    description: "Praise your good *friend*, because they are awesome !"
+    permission: noae.atlas.hugger.positive.givepraise
+    permission-message: "perm noae.atlas.hugger.positive.givepraise"
+    usage: "/praise <player>"
 
 
 
