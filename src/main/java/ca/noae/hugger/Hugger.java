@@ -34,7 +34,12 @@ public final class Hugger extends JavaPlugin {
         // Handlers
         new Config(this);
 
-        //
+        // Commands
+        registerNegativeCommands();
+        registerNeutralCommands();
+        registerPositiveCommands();
+        registerPunishmentCommands();
+        registerRewardCommands();
 
 
     }
