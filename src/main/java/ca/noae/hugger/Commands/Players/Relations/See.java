@@ -1,4 +1,4 @@
-package ca.noae.hugger.Commands.Players.Identity;
+package ca.noae.hugger.Commands.Players.Relations;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
