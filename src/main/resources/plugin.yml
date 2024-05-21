@@ -145,6 +145,58 @@ commands:
     permission: noae.atlas.hugger.reward.givetreat
     permission-message: "perm noae.atlas.hugger.reward.givetreat"
     usage: "/treat <player>"
+  ## Player Commands
+  ## Identity-related commands
+  idconfig:
+    aliases: [identityconfig]
+    description: "Configure your identity settings. Leaving empty will open the GUI"
+    permission: noae.atlas.hugger.player.idconfig
+    permission-message: "perm noae.atlas.hugger.player.idconfig"
+    usage: "/idconfig <setting> <value>"
+  idcreate:
+    aliases: [identitycreate,idc]
+    description: "Create your identity. You can only do this once."
+    permission: noae.atlas.hugger.player.idcreate
+    permission-message: "perm noae.atlas.hugger.player.idcreate"
+    usage: "/idcreate <name>"
+  idsee:
+    aliases: [identitysee,ids]
+    description: "See a player's identity."
+    permission: noae.atlas.hugger.player.idsee
+    permission-message: "perm noae.atlas.hugger.player.idsee"
+    usage: "/idsee <player>"
+  ## Relationship-related commands
+  accept:
+    aliases: [acceptrelationship]
+    description: "Accept a relationship request."
+    permission: noae.atlas.hugger.player.accept
+    permission-message: "perm noae.atlas.hugger.player.accept"
+    usage: "/accept <player>"
+  relconfig:
+    aliases: [relationshipconfig]
+    description: "Configure your relationship settings. Leaving empty will open the GUI"
+    permission: noae.atlas.hugger.player.relconfig
+    permission-message: "perm noae.atlas.hugger.player.relconfig"
+    usage: "/relconfig <setting> <value>"
+  relcreate:
+    aliases: [relationshipcreate,relc]
+    description: "Create a relationship with another player."
+    permission: noae.atlas.hugger.player.relcreate
+    permission-message: "perm noae.atlas.hugger.player.relcreate"
+    usage: "/relcreate <player>"
+  decline:
+    aliases: [declinerelationship]
+    description: "Decline a relationship request."
+    permission: noae.atlas.hugger.player.decline
+    permission-message: "perm noae.atlas.hugger.player.decline"
+    usage: "/decline <player>"
+  relsee:
+    aliases: [relationshipsee,rels]
+    description: "See a player's relationships."
+    permission: noae.atlas.hugger.player.relsee
+    permission-message: "perm noae.atlas.hugger.player.relsee"
+    usage: "/relsee <player>"
+
 
 
 
